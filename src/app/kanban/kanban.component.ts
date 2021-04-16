@@ -19,7 +19,11 @@ export class KanbanComponent implements OnInit {
     'Go home',
     'Fall asleep'
   ];
-
+  doing = [
+    'Meyve al',
+    'Arabaya benzin al',
+    'Ödevlerini yap'
+  ]
   done = [
     'Get up',
     'Brush teeth',

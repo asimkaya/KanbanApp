@@ -17,7 +17,6 @@ export class KanbanComponent implements OnInit {
     'Get to work',
     'Pick up groceries',
     'Go home',
-    'Fall asleep'
   ];
   doing = [
     'Meyve al',
@@ -28,8 +27,6 @@ export class KanbanComponent implements OnInit {
     'Get up',
     'Brush teeth',
     'Take a shower',
-    'Check e-mail',
-    'Walk dog'
   ];
 
   drop(event: CdkDragDrop<string[]>) {

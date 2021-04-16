@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+    font-family: "BoldFinger";
+    src: url("./assets/boldfinger.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("./assets/boldfinger.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+html,
+body {
+    height: 100%;
+    background-color: rgb(150, 248, 235);
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

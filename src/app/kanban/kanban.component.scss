@@ -11,16 +11,15 @@ main {
     justify-content: center;
     margin-top: 2.5rem;
     .example-container {
-        width: 400px;
+        width: 280px;
         max-width: 100%;
         margin: 0 25px 25px 0;
         display: inline-block;
         vertical-align: top;
         text-align: center;
         .example-list {
-            border: solid 1px #ccc;
             min-height: 60px;
-            background: white;
+            background: transparent;
             border-radius: 4px;
             overflow: hidden;
             display: block;
@@ -38,6 +37,11 @@ main {
             background: white;
             font-size: 14px;
             background-color: rgb(100 149 237);
+            border-radius: 30px;
+            margin-bottom: 10px;
+            .item-div {
+                width: -webkit-fill-available;
+            }
         }
     }
 

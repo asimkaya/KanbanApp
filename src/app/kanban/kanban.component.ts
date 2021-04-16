@@ -43,4 +43,11 @@ export class KanbanComponent implements OnInit {
     }
   }
 
+  AddSticky() {
+    let stickyName = prompt('Give a name for Sticky')
+    if (stickyName != '' && stickyName != ' ') {
+      this.todo.push(stickyName);
+    }
+  }
+
 }

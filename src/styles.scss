@@ -14,7 +14,7 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 @media only screen and (max-width: 800px) {
-    body {
-        display: flex;
+    main {
+        text-align: center;
     }
 }
